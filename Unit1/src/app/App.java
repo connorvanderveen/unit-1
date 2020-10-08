@@ -2,15 +2,13 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
+int count = 0;
 
-        int myint = 10;
-
-        if (myint % 2 == 0) {
-            System.out.println(myint + " is an even number");
-        } else {
-            System.out.println(myint + " is an odd number");
-        }
-        System.out.println("all finished");
-
+      while (count < 1001) {
+          System.out.println("the count is " + count);
+          count = count + 100;
+      }
+      
+      System.out.println("count finished");
     }
 }
